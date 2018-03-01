@@ -1,4 +1,6 @@
-# Machine Learning Engineer Nanodegree - Capstone Project
+# Machine Learning Engineer Nanodegree (by Udacity)
+
+# Capstone Project
 
 ## Predicting H-1B visa eligibility in the U.S. 
 
