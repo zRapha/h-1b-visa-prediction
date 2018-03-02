@@ -12,11 +12,11 @@ Every year hundreds of thousands of international workers apply for H-1B non-imm
 
 https://www.kaggle.com/elraphabr/predicting-outcome-for-h-1b-eligibility-in-the-us 
 
-
-
 ## Appendix: Quick guide on how to get your jupyter notebook running on AWS: 
 
-### —> On Local Machine: 
+In case you need more processing power to run your model, it might be a good option to use some cloud infrastructure. During my project I gave it a try on AWS. Although I ended up training the model locally, having a quick guide on how to implement the notebook in AWS proved to be helpful. Also, make sure you use a powerful EC2 instance. I wasn't able to run the full database only using the free tier so I needed to request a limit increase to p2.xlarge, which should be more powerful to run ML models. After finishing, remember to stop all spot instances, cancel requests and delete any snapshots and volumes. Otherwise, it will keep generating extra charges. 
+
+### —> Steps on Local Machine: 
 
 ### Select the instance in AWS 
 
@@ -34,7 +34,7 @@ ssh-add AWS_private_key.pem
 ### Connect via SSH using your IP 
 ssh -i "AWS_private_key.pem" ec2-user@ec2-[IP].eu-central-1.compute.amazonaws.com 
 
-### —> On AWS Machine 
+### —> Steps on AWS Machine 
 
 ### Updates
 sudo yum update
