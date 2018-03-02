@@ -12,9 +12,11 @@ Every year hundreds of thousands of international workers apply for H-1B non-imm
 
 https://www.kaggle.com/elraphabr/predicting-outcome-for-h-1b-eligibility-in-the-us 
 
+
+
 ## Appendix: Quick guide on how to get your jupyter notebook running on AWS: 
 
-## —> On Local Machine: 
+### —> On Local Machine: 
 
 ## Select the instance in AWS 
 
