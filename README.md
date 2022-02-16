@@ -1,6 +1,6 @@
-# Machine Learning Engineer Nanodegree (by Udacity)
+# Machine Learning Engineer Nanodegree
 
-## Capstone Project
+## Capstone Project by Udacity
 
 I am making my project - along with the code - available online in case it is useful for other students or people who are getting interested in Machine Learning. Questions and suggestions are welcome. 
 
